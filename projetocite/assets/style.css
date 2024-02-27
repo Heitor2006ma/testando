@@ -1,0 +1,59 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative; /* Garante que o position absolute no footer seja relativo ao corpo da página */
+    }
+
+    header {
+        background-color: #17a3bb;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: #57749f;
+        padding: 10px;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    section {
+        flex: 1;
+        padding: 20px;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        
+    }
+
+    .event {
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    #espaco {
+        margin: 80px;
+    }
